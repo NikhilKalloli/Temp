@@ -1,4 +1,9 @@
 # Temp
+``` git clone https://github.com/NikhilKalloli/Temp.git```
+
+``` cd Temp```
+
+1``` pip install virtualenv ```
 
 ``` python -m venv venv ```
 
