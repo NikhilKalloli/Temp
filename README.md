@@ -3,7 +3,7 @@
 
 ``` cd Temp```
 
-1``` pip install virtualenv ```
+``` pip install virtualenv ```
 
 ``` python -m venv venv ```
 
