@@ -1,0 +1,48 @@
+PS D:\Temp>     python main.py -d www.securit.club -s 100 -Request
+[-] Check your pip installer
+
+
+      _ \        __ \  __ \               ___|           _)       |   
+     |   | |   | |   | |   |  _ \   __| \___ \   __|  __| | __ \  __|  
+     ___/  |   | |   | |   | (   |\__ \       | (    |    | |   | |   
+    _|    \__, |____/ ____/ \___/ ____/ _____/ \___|_|   _| .__/ \__|  
+           ____/                                            _|
+
+ DDos python script | Script used for testing ddos | Ddos attack     
+
+
+[*] Start send request to: www.securit.club
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
+Cannot choose from an empty sequence
