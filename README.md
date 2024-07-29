@@ -1,4 +1,5 @@
 # Temp
+
 ``` git clone https://github.com/NikhilKalloli/Temp.git```
 
 ``` cd Temp```
@@ -11,4 +12,12 @@
 
 ``` pip install -r requirements.txt```
 
-``` python main.py -d www.example.com -p 80 -t 2000 -Pyslow ```
+## To get response in UI:  
+``` python main.py ```
+
+``` http://localhost:8002/ ```
+
+## To get response in json format:  
+``` python main2.py  ```
+Open Postman and send post request to below url with json data. (Key: "Keyword", Value: "Topic of the poem")  
+``` http://localhost:8002/generate ```
