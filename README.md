@@ -18,6 +18,6 @@
 ``` http://localhost:8002/ ```
 
 ## To get response in json format:  
-``` python main2.py  ```
-Open Postman and send post request to below url with json data. (Key: "Keyword", Value: "Topic of the poem")  
+``` python main2.py  ```  
+Open Postman and send post request to below url with json data. (Key: "keyword", Value: "Topic of the poem")    
 ``` http://localhost:8002/generate ```
